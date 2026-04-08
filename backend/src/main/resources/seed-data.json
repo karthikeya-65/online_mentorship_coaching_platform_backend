@@ -1,0 +1,322 @@
+{
+  "accounts": [
+    {
+      "id": "account-admin",
+      "role": "admin",
+      "username": "admin",
+      "password": "admin123",
+      "displayName": "Program Admin",
+      "linkedUserId": null
+    },
+    {
+      "id": "account-mentee-1",
+      "role": "mentee",
+      "username": "neha",
+      "password": "neha123",
+      "displayName": "Neha Iyer",
+      "linkedUserId": "mentee-1"
+    },
+    {
+      "id": "account-mentee-2",
+      "role": "mentee",
+      "username": "karthik",
+      "password": "karthik123",
+      "displayName": "Karthik R",
+      "linkedUserId": "mentee-2"
+    },
+    {
+      "id": "account-mentee-3",
+      "role": "mentee",
+      "username": "sana",
+      "password": "sana123",
+      "displayName": "Sana Malik",
+      "linkedUserId": "mentee-3"
+    },
+    {
+      "id": "account-mentee-4",
+      "role": "mentee",
+      "username": "arjun",
+      "password": "arjun123",
+      "displayName": "Arjun Mehta",
+      "linkedUserId": "mentee-4"
+    }
+  ],
+  "users": [
+    {
+      "id": "mentor-1",
+      "role": "mentor",
+      "name": "Aisha Raman",
+      "title": "Product Strategy Lead",
+      "company": "Northstar Labs",
+      "bio": "Helps early-career professionals convert ideas into focused product roadmaps and leadership habits.",
+      "expertise": ["Product Management", "Leadership", "Career Growth"],
+      "availability": ["Mon 6 PM", "Wed 7 PM", "Sat 10 AM"],
+      "experienceYears": 11,
+      "capacity": 6,
+      "currentMentees": 4,
+      "rating": 4.9,
+      "location": "Bengaluru",
+      "goals": [],
+      "focusAreas": [],
+      "currentMentorId": null
+    },
+    {
+      "id": "mentor-2",
+      "role": "mentor",
+      "name": "Daniel Cruz",
+      "title": "Senior Software Architect",
+      "company": "Blue Orbit",
+      "bio": "Guides mentees through backend systems, clean architecture, and interview preparation.",
+      "expertise": ["Backend Development", "System Design", "Interview Prep"],
+      "availability": ["Tue 8 PM", "Thu 6 PM", "Sun 11 AM"],
+      "experienceYears": 13,
+      "capacity": 5,
+      "currentMentees": 3,
+      "rating": 4.8,
+      "location": "Hyderabad",
+      "goals": [],
+      "focusAreas": [],
+      "currentMentorId": null
+    },
+    {
+      "id": "mentor-3",
+      "role": "mentor",
+      "name": "Maya Turner",
+      "title": "People and Culture Coach",
+      "company": "BrightPath Consulting",
+      "bio": "Supports confidence building, communication coaching, and transition planning for young professionals.",
+      "expertise": ["Communication", "Personal Branding", "Career Growth"],
+      "availability": ["Mon 7 PM", "Fri 5 PM", "Sat 4 PM"],
+      "experienceYears": 9,
+      "capacity": 7,
+      "currentMentees": 5,
+      "rating": 4.7,
+      "location": "Chennai",
+      "goals": [],
+      "focusAreas": [],
+      "currentMentorId": null
+    },
+    {
+      "id": "mentor-4",
+      "role": "mentor",
+      "name": "Rohan Patel",
+      "title": "Startup Finance Advisor",
+      "company": "Pivot Advisory",
+      "bio": "Coaches founders and graduates on finance fundamentals, planning, and confident business storytelling.",
+      "expertise": ["Finance", "Entrepreneurship", "Leadership"],
+      "availability": ["Wed 6 PM", "Thu 8 PM", "Sun 9 AM"],
+      "experienceYears": 10,
+      "capacity": 4,
+      "currentMentees": 2,
+      "rating": 4.9,
+      "location": "Mumbai",
+      "goals": [],
+      "focusAreas": [],
+      "currentMentorId": null
+    },
+    {
+      "id": "mentee-1",
+      "role": "mentee",
+      "name": "Neha Iyer",
+      "title": "Associate Product Analyst",
+      "company": "Vertex Cloud",
+      "bio": "Wants to grow into a product owner role and improve communication during stakeholder reviews.",
+      "expertise": [],
+      "availability": [],
+      "experienceYears": 0,
+      "capacity": 0,
+      "currentMentees": 0,
+      "rating": 0,
+      "location": "Bengaluru",
+      "goals": ["Lead product discovery sessions", "Improve stakeholder communication"],
+      "focusAreas": ["Product Management", "Communication", "Leadership"],
+      "currentMentorId": "mentor-1"
+    },
+    {
+      "id": "mentee-2",
+      "role": "mentee",
+      "name": "Karthik R",
+      "title": "Junior Backend Engineer",
+      "company": "Nova Stack",
+      "bio": "Preparing for architecture interviews while improving backend performance and design confidence.",
+      "expertise": [],
+      "availability": [],
+      "experienceYears": 0,
+      "capacity": 0,
+      "currentMentees": 0,
+      "rating": 0,
+      "location": "Hyderabad",
+      "goals": ["Design scalable APIs", "Prepare for system design interviews"],
+      "focusAreas": ["Backend Development", "System Design", "Interview Prep"],
+      "currentMentorId": "mentor-2"
+    },
+    {
+      "id": "mentee-3",
+      "role": "mentee",
+      "name": "Sana Malik",
+      "title": "Operations Associate",
+      "company": "Streamline Works",
+      "bio": "Working on leadership presence and making a transition into people operations.",
+      "expertise": [],
+      "availability": [],
+      "experienceYears": 0,
+      "capacity": 0,
+      "currentMentees": 0,
+      "rating": 0,
+      "location": "Chennai",
+      "goals": ["Build personal brand", "Move into a people-focused role"],
+      "focusAreas": ["Communication", "Personal Branding", "Career Growth"],
+      "currentMentorId": "mentor-3"
+    },
+    {
+      "id": "mentee-4",
+      "role": "mentee",
+      "name": "Arjun Mehta",
+      "title": "MBA Student",
+      "company": "Campus Incubator",
+      "bio": "Needs support structuring startup finance plans and pitching to mentors and early investors.",
+      "expertise": [],
+      "availability": [],
+      "experienceYears": 0,
+      "capacity": 0,
+      "currentMentees": 0,
+      "rating": 0,
+      "location": "Mumbai",
+      "goals": ["Create finance model", "Improve founder communication"],
+      "focusAreas": ["Finance", "Entrepreneurship", "Leadership"],
+      "currentMentorId": "mentor-4"
+    }
+  ],
+  "matches": [
+    {
+      "id": "match-1",
+      "mentorId": "mentor-1",
+      "menteeId": "mentee-1",
+      "status": "active",
+      "createdAt": "2026-03-05T11:30:00.000Z"
+    },
+    {
+      "id": "match-2",
+      "mentorId": "mentor-2",
+      "menteeId": "mentee-2",
+      "status": "active",
+      "createdAt": "2026-03-11T14:00:00.000Z"
+    },
+    {
+      "id": "match-3",
+      "mentorId": "mentor-3",
+      "menteeId": "mentee-3",
+      "status": "active",
+      "createdAt": "2026-03-14T09:15:00.000Z"
+    },
+    {
+      "id": "match-4",
+      "mentorId": "mentor-4",
+      "menteeId": "mentee-4",
+      "status": "active",
+      "createdAt": "2026-03-19T17:45:00.000Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "session-1",
+      "mentorId": "mentor-1",
+      "menteeId": "mentee-1",
+      "topic": "Product discovery planning",
+      "dateTime": "2026-04-10T12:30:00.000Z",
+      "mode": "Video",
+      "durationMinutes": 60,
+      "status": "scheduled",
+      "notes": "Review discovery template and define two measurable outcomes."
+    },
+    {
+      "id": "session-2",
+      "mentorId": "mentor-2",
+      "menteeId": "mentee-2",
+      "topic": "System design mock interview",
+      "dateTime": "2026-04-11T14:00:00.000Z",
+      "mode": "Video",
+      "durationMinutes": 75,
+      "status": "scheduled",
+      "notes": "Focus on scaling notifications and caching decisions."
+    },
+    {
+      "id": "session-3",
+      "mentorId": "mentor-3",
+      "menteeId": "mentee-3",
+      "topic": "Leadership communication rehearsal",
+      "dateTime": "2026-04-03T10:00:00.000Z",
+      "mode": "Video",
+      "durationMinutes": 45,
+      "status": "completed",
+      "notes": "Strong progress on confidence and message structure."
+    },
+    {
+      "id": "session-4",
+      "mentorId": "mentor-4",
+      "menteeId": "mentee-4",
+      "topic": "Finance model review",
+      "dateTime": "2026-04-12T13:30:00.000Z",
+      "mode": "Hybrid",
+      "durationMinutes": 60,
+      "status": "scheduled",
+      "notes": "Validate assumptions and simplify slide storyline."
+    }
+  ],
+  "progress": [
+    {
+      "id": "progress-1",
+      "menteeId": "mentee-1",
+      "title": "Lead a discovery workshop",
+      "description": "Own a structured workshop with design and engineering stakeholders.",
+      "completion": 80,
+      "status": "On Track",
+      "dueDate": "2026-04-20"
+    },
+    {
+      "id": "progress-2",
+      "menteeId": "mentee-1",
+      "title": "Present roadmap clearly",
+      "description": "Practice executive storytelling and concise updates.",
+      "completion": 65,
+      "status": "On Track",
+      "dueDate": "2026-04-28"
+    },
+    {
+      "id": "progress-3",
+      "menteeId": "mentee-2",
+      "title": "Design a scalable API",
+      "description": "Document service boundaries, failure states, and cache choices.",
+      "completion": 72,
+      "status": "On Track",
+      "dueDate": "2026-04-17"
+    },
+    {
+      "id": "progress-4",
+      "menteeId": "mentee-2",
+      "title": "Finish interview prep deck",
+      "description": "Summarize two system design case studies for mock interviews.",
+      "completion": 58,
+      "status": "Needs Attention",
+      "dueDate": "2026-04-14"
+    },
+    {
+      "id": "progress-5",
+      "menteeId": "mentee-3",
+      "title": "Build personal brand toolkit",
+      "description": "Refresh profile, narrative, and internal introduction pitch.",
+      "completion": 86,
+      "status": "On Track",
+      "dueDate": "2026-04-12"
+    },
+    {
+      "id": "progress-6",
+      "menteeId": "mentee-4",
+      "title": "Create startup finance model",
+      "description": "Prepare revenue, runway, and risk assumptions with mentor feedback.",
+      "completion": 49,
+      "status": "Needs Attention",
+      "dueDate": "2026-04-18"
+    }
+  ]
+}
